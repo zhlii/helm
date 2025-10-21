@@ -27,5 +27,4 @@ jobs:
           CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           charts_dir: charts           # 你的 charts 目录（默认 charts）
-          pages_branch: gh-pages       # 临时工作分支/目录（action 会提交 gh-pages）
-          # optional: enable_signing: true
+          pages_branch: gh-pages       # 临时工作分支/目录（action 会提交 gh-pages）          
