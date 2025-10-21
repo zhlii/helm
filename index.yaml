@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/zhlii/helm/releases/download/code-server-3.31.2/code-server-3.31.2.tgz
     version: 3.31.2
-generated: "2025-10-21T02:42:12.407286575Z"
+  - apiVersion: v2
+    appVersion: 4.104.2
+    created: "2025-10-21T07:04:20.131851034Z"
+    description: A Helm chart for coder/code-server
+    digest: 1416f9174171909d279274461036ba29b7c4e7cf68b5f8b8275fdb0ce6897c2a
+    icon: https://code.visualstudio.com/assets/apple-touch-icon.png
+    name: code-server
+    type: application
+    urls:
+    - https://github.com/zhlii/helm/releases/download/code-server-1.0.0/code-server-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-10-21T07:04:20.131860241Z"
