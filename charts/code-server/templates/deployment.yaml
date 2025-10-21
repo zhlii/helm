@@ -42,7 +42,7 @@ spec:
       initContainers:
       {{- if and .Values.volumePermissions.enabled .Values.persistence.enabled }}
       - name: init-chmod-data
-        image: busybox:latest
+        image: registry.cn-hangzhou.aliyuncs.com/xduo_pub/busybox:latest
         imagePullPolicy: IfNotPresent
         command:
           - sh

@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: registry.cn-hangzhou.aliyuncs.com/xduo_pub/codercom/code-server
+  repository: registry.cn-hangzhou.aliyuncs.com/xduo_pub/code-server
   tag: '4.104.2'
   pullPolicy: Always
 
